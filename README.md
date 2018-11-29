@@ -1,6 +1,10 @@
-# LiveBot: A Model for Automatically Generating Live Video Comments (Barrage)
+# LiveBot
 
 This is the codes and datasets for the papers: [*LiveBot: Generating Live Video Comments Based on Visual and Textual Contexts*](https://arxiv.org/pdf/1809.04938.pdf).
+
+## What is Live Video Comments?
+Live video commenting, which is also called ''video barrage'' (''弹幕'' in Chinese or ''Danmaku'' in Japanese), is an emerging feature on online video sites that allows real-time comments from viewers to fly across the screen like bullets or roll at the right side of the screen.
+
 
 ## Requirements
 * Ubuntu 16.0.4
@@ -10,11 +14,11 @@ This is the codes and datasets for the papers: [*LiveBot: Generating Live Video 
 
 ## Datasets
 
-- **Processed dataset** can be directly used for our codes to reproduce the results reported in the paper. It should be downloaded from [Google Drive](https://drive.google.com/open?id=13hLJ4yCJVJjz02YB0dyugeE_fcl6EI-B), and put in the folder */data*.
+- **Processed dataset** can be directly used for our codes to reproduce the results reported in the paper. It should be downloaded from [Google Drive](https://drive.google.com/open?id=13hLJ4yCJVJjz02YB0dyugeE_fcl6EI-B) or [Baidu Pan](https://pan.baidu.com/s/1xdfnZKtBpESEuLvhyU0RBw), and put in the folder */data*.
 
 - **Raw dataset** consists of the videos and the corresponding live comments that directly downloaded from the Bilibili video websites. It can be found at [Google Drive](https://drive.google.com/open?id=15m5SbD-2ByaAr9Ik_vhL2GuUseVR-_EB) or [Baidu Pan](https://pan.baidu.com/s/1WSDbopxTMoxOAsd29gT77A). After processed with the scripts in the folder */data*, it can be transformed into the processed datasets above.
 
-## Livebot
+## Livebot Model
 
 - Step 1: Download the processed dataset above
 - Step 2: Train a model 
