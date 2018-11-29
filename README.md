@@ -1,4 +1,4 @@
-# LiveBot: A robot that can automatically generate live video comments
+# LiveBot: A Model for Automatically Generating Live Video Comments (Barrage)
 
 This is the codes and datasets for the papers: [*LiveBot: Generating Live Video Comments Based on Visual and Textual Contexts*](https://arxiv.org/pdf/1809.04938.pdf).
 
