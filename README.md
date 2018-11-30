@@ -63,7 +63,7 @@ Hopefully the codes and the datasets are useful for the future research. If you 
                Furu Wei and
                Xu Sun},
   title     = {LiveBot: Generating Live Video Comments Based on Visual and Textual Contexts},
-  booktitle = {{AAAI} 2018},
-  year      = {2018}
+  booktitle = {{AAAI} 2019},
+  year      = {2019}
 }
 ```
