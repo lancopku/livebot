@@ -54,7 +54,7 @@ Live video commenting, which is also called ''video barrage'' (''弹幕'' in Chi
 
 ## Citation
 
-Hopefully the codes and the datasets are useful for the future research. If you use the above codes or datasets, please cite:
+Hopefully the codes and the datasets are useful for the future research. If you use the above codes or datasets for your research, please kindly cite our paper:
 ```
 @inproceedings{livebot,
   author    = {Shuming Ma and
