@@ -5,7 +5,6 @@ This is the codes and datasets for the papers: [*LiveBot: Generating Live Video 
 ## What is Live Video Comments?
 Live video commenting, which is also called ''video barrage'' (''弹幕'' in Chinese or ''Danmaku'' in Japanese), is an emerging feature on online video sites that allows real-time comments from viewers to fly across the screen like bullets or roll at the right side of the screen.
 
-
 ## Requirements
 * Ubuntu 16.0.4
 * Python 3.5

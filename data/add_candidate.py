@@ -61,7 +61,6 @@ def get_plausible_set(comment_set, candidate_set, k, query_tfidf, comment_tfidf)
             candidate_set[comment_set[id]] = 1
     return candidate_set
 
-
 def get_candidate_set(fin, fout, comment_list, tvec, comment_tfidf):
     datas = load_from_json(fin)
     newdatas = []
@@ -75,7 +74,6 @@ def get_candidate_set(fin, fout, comment_list, tvec, comment_tfidf):
                          'context': data['context'], 'comment': data['comment'],
                          'candidate': candidate_set})
     dump_to_json(newdatas, fout)
-
 
 
 if __name__ == '__main__':

@@ -36,4 +36,3 @@ def mean_reciprocal_rank(predictions, references):
         rank = calc_hit_rank(p, c)
         ranks.append(1.0 / rank)
     return sum(ranks) * 1.0 / len(ranks)
-
