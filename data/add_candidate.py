@@ -43,14 +43,14 @@ def get_correct_set(news, candidate_set):
 def get_popular_set(comment_set, candidate_set, k):
     for comment in comment_set[:k]:
         if comment not in candidate_set:
-            candidate_set[comment] = 1
+            candidate_set[comment] = 2
     return candidate_set
 
 def get_random_set(comment_set, candidate_set, k):
     while len(candidate_set) < k:
         rand = random.randint(0, len(comment_set) - 1)
         if comment_set[rand] not in candidate_set:
-            candidate_set[comment_set[rand]] = 1
+            candidate_set[comment_set[rand]] = 3
     return candidate_set
 
 def get_plausible_set(comment_set, candidate_set, k, query_tfidf, comment_tfidf):
@@ -58,7 +58,7 @@ def get_plausible_set(comment_set, candidate_set, k, query_tfidf, comment_tfidf)
     ids = np.array(np.argsort(-matrix, axis=1))[0]
     for id in ids[:k]:
         if comment_set[id] not in candidate_set:
-            candidate_set[comment_set[id]] = 1
+            candidate_set[comment_set[id]] = 3
     return candidate_set
 
 def get_candidate_set(fin, fout, comment_list, tvec, comment_tfidf):
